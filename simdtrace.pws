@@ -1,0 +1,36 @@
+
+[executer]
+RunInTerminal=true
+
+[Project State]
+clean before build=false
+
+[filenumbers]
+0=105
+1=7
+2=62
+
+[filemarkers]
+0=
+1=
+2=
+
+[File View]
+filter.file.unmatch=*.so *.o *.a *.la
+filter.file.ignore.hidden=0
+filter.dir.ignore.hidden=0
+
+[filelist]
+0=/home/jars/BA/shared/BSHSpatialMedianCut.cpp
+1=/home/jars/BA/shared/Makefile
+2=/home/jars/BA/shared/simdtrace.cpp
+
+[Project Tree]
+0=0
+1=0:1
+
+[File Tree]
+0=0
+
+[executer args]
+0=2 obj cow.obj
