@@ -1,1 +1,2 @@
 models/cow.obj
+models/kugeln.obj

@@ -1,0 +1,76 @@
+#
+newmtl texture
+Ka  0.8 0.8 0.8
+Kd  0.8 0.8 0.8
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 1
+map_Kd kugeln.bmp
+#
+newmtl mirror
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+Ni  0.0
+illum 3
+#
+newmtl glass
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+Ni  1.3
+Tf  1.0 1.0 1.0
+illum 4
+#
+newmtl blue_glass
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  10.0
+Ni  1.3
+Tf  0.0 0.0 1.0
+illum 4
+#
+newmtl red_glass
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  10.0
+Ni  1.3
+Tf  1.0 0.0 0.0
+illum 4
+#
+newmtl green_glass
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  10.0
+Ni  1.3
+Tf  0.0 1.0 0.0
+illum 4
+#
+newmtl yellow
+Ka  0.9 1.0 0.0
+Kd  0.9 1.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  30.0
+illum 2
+#
+newmtl green
+Ka  0.0 1.0 0.1
+Kd  0.0 1.0 0.1
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  50.0
+illum 2
+#
+# EOF

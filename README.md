@@ -4,12 +4,20 @@ Bounding volume hierarchies have become a very popular way to speed up ray traci
 
 How to run on UNIX:
 ```sh
-./simdtrace -mode=T -frames=1 -methods=S -ignoreMaterials -shadows=0 models/cow.obj
+# interactive mode
+./simdtrace -mode=I -methods=S -light=1 models/kugeln.obj
+
+# test mode
+./simdtrace -mode=T -frames=1 -methods=S -ignoreMaterials -shadows=0 models/kugeln.obj
 ```
 
 How to run on Windows:
 ```sh
-RayTracer.exe -mode=T -frames=1 -methods=S -ignoreMaterials -shadows=0 models/cow.obj
+# interactive mode
+RayTracer.exe -mode=I -methods=S -light=1 models/kugeln.obj
+
+# test mode
+RayTracer.exe -mode=T -frames=1 -methods=S -ignoreMaterials -shadows=0 models/kugeln.obj
 ```
 
 Additional information
